@@ -1,0 +1,5 @@
+<Response>
+<Speak language="en-US">One Moment please.</Speak>
+  <Wait length="2" />
+ <Speak>Great, This Request Has Now been blocked,For Further help you can visit the help section on your account page you can now hang up Thank You.</Speak>
+</Response>
