@@ -1,5 +1,5 @@
 <Response>
-<Dial action="https://ngrok.io/multilevelivr/action/" method="POST" callerId="3456789" redirect="false">
+<Dial action="https://servertestbyxblackxcoder.herokuapp.com/" method="POST" callerId="3456789" redirect="false">
     <Number>+18772427372</Number>
 </Dial>
 </Response>
